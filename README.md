@@ -5,109 +5,109 @@ A complete 4-bit processor designed from scratch using Digital Logic Design prin
 This project demonstrates the design and implementation of a 4-bit processor capable of interpreting and executing instructions through a 7-bit instruction format. The processor integrates register architecture, instruction decoding, control logic, and an Arithmetic Logic Unit (ALU) to simulate how a basic CPU processes instructions at the hardware level.<br>
 
 Built entirely using Digital Logic Design concepts, this project provides a practical understanding of processor organization, instruction execution, register operations, and data flow within a processor. <br>
-✨ Features
-🧠 Custom 7-bit Instruction Set Architecture (ISA)
-📦 Four 4-bit General Purpose Registers
-📝 Dedicated Instruction Register (IR)
-⚙️ Arithmetic Logic Unit (ALU)
-🔍 Instruction Decoding using a 3×8 Decoder
-🎯 Register Selection using 2×4 Decoders
-💾 Register implementation using D Flip-Flops
-🔀 Data Routing using 8×1 Multiplexers
-⏱️ Clock-Synchronized Operation
-🧩 Modular Hardware Design
+✨ Features <br>
+🧠 Custom 7-bit Instruction Set Architecture (ISA) <br>
+📦 Four 4-bit General Purpose Registers<br>
+📝 Dedicated Instruction Register (IR)<br>
+⚙️ Arithmetic Logic Unit (ALU)<br>
+🔍 Instruction Decoding using a 3×8 Decoder<br>
+🎯 Register Selection using 2×4 Decoders<br>
+💾 Register implementation using D Flip-Flops<br>
+🔀 Data Routing using 8×1 Multiplexers<br>
+⏱️ Clock-Synchronized Operation<br>
+🧩 Modular Hardware Design<br>
 
-🚀 Supported Instructions
-Opcode     Operation	   Description
-LOAD       Load external   4-bit data into a register
-MOV	       Transfer data between registers
-ADD        Perform binary addition
-SUB	       Perform binary subtraction
-MUL	       Multiply two 4-bit numbers (8-bit output)
-OR	       Bitwise OR operation
-SHL        Shift Left (Multiply by 2ⁱ)
-SHR	       Shift Right (Divide by 2ⁱ)
+🚀 Supported Instructions<br>
+Opcode     Operation	   Description<br>
+LOAD       Load external   4-bit data into a register<br>
+MOV	       Transfer data between registers<br>
+ADD        Perform binary addition<br>
+SUB	       Perform binary subtraction<br>
+MUL	       Multiply two 4-bit numbers (8-bit output)<br>
+OR	       Bitwise OR operation<br>
+SHL        Shift Left (Multiply by 2ⁱ)<br>
+SHR	       Shift Right (Divide by 2ⁱ)<br>
 
-🏗️ Processor Architecture
+🏗️ Processor Architecture<br>
 
-The processor consists of the following major components:
+The processor consists of the following major components:<br>
 
-Instruction Register (IR)
-Four 4-bit Registers
-3×8 Opcode Decoder
-2×4 Register Decoders
-Arithmetic Logic Unit (ALU)
-Multiplexers
-Control Logic
-Clock-Controlled Sequential Circuitry
+Instruction Register (IR)<br>
+Four 4-bit Registers<br>
+3×8 Opcode Decoder<br>
+2×4 Register Decoders<br>
+Arithmetic Logic Unit (ALU)<br>
+Multiplexers<br>
+Control Logic<br>
+Clock-Controlled Sequential Circuitry<br>
 
-Together, these components perform the complete Fetch → Decode → Execute cycle for every instruction.
+Together, these components perform the complete Fetch → Decode → Execute cycle for every instruction.<br>
 
-⚙️ Instruction Format
+⚙️ Instruction Format<br>
 
-Each instruction is 7 bits long.
+Each instruction is 7 bits long.<br>
 
-┌──────────┬──────────┬──────────┐
-│ Opcode   │ Register │ Register │
-│ 3 Bits   │ R1 (2)   │ R2 (2)   │
-└──────────┴──────────┴──────────┘
-Opcode → Selects the operation
-R1 → Destination Register
-R2 → Source Register
+┌──────────┬──────────┬──────────┐<br>
+│ Opcode   │ Register │ Register │<br>
+│ 3 Bits   │ R1 (2)   │ R2 (2)   │<br>
+└──────────┴──────────┴──────────┘<br>
+Opcode → Selects the operation<br>
+R1 → Destination Register<br>
+R2 → Source Register<br>
 
-# Digital Logic Concepts Used
-D Flip-Flops
-Multiplexers
-Decoders
-Register Design
-Sequential Logic
-Combinational Logic
-Ripple Carry Adder
-Two's Complement Subtractor
-Binary Multiplier
-Shift Registers
-ALU Design
-Control Logic
-Clock Synchronization
+# Digital Logic Concepts Used<br>
+D Flip-Flops<br>
+Multiplexer<br>
+Decoders<br>
+Register Design<br>
+Sequential Logic<br>
+Combinational Logic<br>
+Ripple Carry Adder<br>
+Two's Complement Subtractor<br>
+Binary Multiplier<br>
+Shift Registers<br>
+ALU Design<br>
+Control Logic<br>
+Clock Synchronization<br>
 
-📈 Experimental Results
+📈 Experimental Results<br>
 
-The processor successfully executed all supported instructions with accurate outputs.
+The processor successfully executed all supported instructions with accurate outputs.<br>
 
-✔ Load Operation
+✔ Load Operation<br>
 
-✔ Register Transfer
+✔ Register Transfer<br>
 
-✔ Binary Addition
+✔ Binary Addition<br>
 
-✔ Binary Subtraction
+✔ Binary Subtraction<br>
 
-✔ Binary Multiplication
+✔ Binary Multiplication<br>
 
-✔ Logical OR
+✔ Logical OR<br>
 
-✔ Shift Left
+✔ Shift Left<br>
 
-✔ Shift Right
+✔ Shift Right<br>
 
-📌 Future Improvements
+📌 Future Improvements<br>
 
-Possible extensions include:
+Possible extensions include:<br>
 
-Upgrade from 4-bit to 8-bit/16-bit Processor
-Additional ALU Operations (AND, XOR, NOT)
-More General Purpose Registers
-Status Flags (Carry, Zero, Overflow)
-Memory Interface
-Program Counter
-Instruction Pipeline
-Enhanced Control Unit
+Upgrade from 4-bit to 8-bit/16-bit Processor<br>
+Additional ALU Operations (AND, XOR, NOT)<br>
+More General Purpose Registers<br>
+Status Flags (Carry, Zero, Overflow)<br>
+Memory Interface<br>
+Program Counter<br>
+Instruction Pipeline<br>
+Enhanced Control Unit<br>
 
 
-👥 Team
-Hadia Noor
-Tooba Azam
-Mahrukh Mehboob
+👥 Team<br>
+Hadia Noor<br>
+Tooba Azam<br>
+Mahrukh Mehboob<br>
 
 
 This project bridges the gap between theoretical Digital Logic Design and real processor architecture by demonstrating how instructions are decoded, executed, and stored inside a simple CPU. It serves as a strong foundation for understanding modern computer architecture and hardware system design.
